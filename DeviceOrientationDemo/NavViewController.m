@@ -19,14 +19,13 @@
     // Do any additional setup after loading the view.
 }
 
+//使得每个页面的横竖屏都可定制
 -(BOOL)shouldAutorotate{
     return [self.topViewController shouldAutorotate];
 }
 -(UIInterfaceOrientationMask)supportedInterfaceOrientations{
     return [self.topViewController supportedInterfaceOrientations];
 }
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
