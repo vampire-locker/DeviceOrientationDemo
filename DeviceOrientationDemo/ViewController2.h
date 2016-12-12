@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewController2.h
 //  DeviceOrientationDemo
 //
 //  Created by mobao on 16/12/12.
@@ -8,8 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface ViewController : BaseViewController
-
+@interface ViewController2 : BaseViewController
 
 @end
-
